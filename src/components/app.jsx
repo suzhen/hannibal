@@ -25,3 +25,9 @@ var App = React.createClass({
 })
 
 ReactDOM.render(<App/>,document.getElementById("root"))
+
+React.PropTypes.oneOfType([
+    React.PropTypes.string,
+    React.PropTypes.number,
+    React.PropTypes.instanceOf(Message)
+])
