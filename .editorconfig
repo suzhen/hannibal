@@ -1,0 +1,10 @@
+[*.js]    // 所有的js文件
+indent_type = space
+indent_size = 2
+
+[*.json]  // 所有的json文件
+indent_type = space
+indent_size = 2
+
+[Makefile]
+indent_style = tab
